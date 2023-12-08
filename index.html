@@ -16,42 +16,60 @@
     <nav class="navbar navbar-expand-lg bg-black sticky-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="./pages/ahmadi.html">Mohammad Ahmadi</a>
-            <button class="navbar-toggler border-0 text-danger">
-                <i class="bi bi-list"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="d-lg-none d-xl-block">
+                <button class="navbar-toggler border-0 text-danger">
+                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i
+                            class="bi bi-list"></i></button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                        aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            ...
+                        </div>
+                    </div>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        <a class="nav-link" id="arrow" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
-                            Dropdown
+                            <span id="Languages">Languages</span><i class="bi bi-arrow-down"></i>
                         </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <a class="nav-link d-none" id="arrow2" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span id="Languages2">Languages</span><i class="bi bi-arrow-up"></i>
+                        </a>
+                        <ul id="drop" class="dropdown-menu menu">
+                            <li id="english" class="text-center item">English</li>
+                            <li id="persian" class="text-center item">Persian</li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            Button with data-bs-target
+                        </button>
                     </li>
                 </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+                <div class="d-flex">
+                    <i id="sun" class="bi fs-2 bi-sun"></i>
+                    <i id="moon" class="bi d-none fs-2 bi-moon-stars"></i>
+                </div>
             </div>
         </div>
     </nav>
+    <div class="collapse col-4" id="collapseExample">
+        <div class="card card-body">
+            Some placeholder content for the collapse component. This panel is hidden by default but revealed when the
+            user activates the relevant trigger.
+        </div>
+    </div>
 </body>
 
 </html>
