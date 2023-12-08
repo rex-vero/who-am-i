@@ -22,8 +22,12 @@ persian.addEventListener('click', () => {
 sun.addEventListener('click', () => {
     sun.classList.add('d-none');
     moon.classList.remove('d-none');
+    arrow.classList.remove('d-none');
+    arrow2.classList.add('d-none');
 });
 moon.addEventListener('click', () => {
     moon.classList.add('d-none');
     sun.classList.remove('d-none');
+    arrow.classList.remove('d-none');
+    arrow2.classList.add('d-none');
 });
