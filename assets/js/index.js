@@ -14,9 +14,13 @@ arrow2.addEventListener('click', () => {
     arrow2.classList.add('d-none');
 });
 english.addEventListener('click', () => {
+    arrow.classList.remove('d-none');
+    arrow2.classList.add('d-none');
     title.innerText = "Who Am I?";
 });
 persian.addEventListener('click', () => {
+    arrow.classList.remove('d-none');
+    arrow2.classList.add('d-none');
     title.innerText = "من کی هستم؟";
 });
 sun.addEventListener('click', () => {
