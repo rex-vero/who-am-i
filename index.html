@@ -12,15 +12,16 @@
     <title id="title">Who Am I?</title>
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg bg-black sticky-top">
+<body class="body" id="body">
+    <nav id="navbar" class="navbar navbar-expand-lg bg sticky-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="./pages/ahmadi.html">Mohammad Ahmadi</a>
+            <a id="name" class="navbar-brand txt" data-bs-toggle="collapse" data-bs-target="#collapseExample"
+                aria-expanded="false" aria-controls="collapseExample">Mohammad Ahmadi</a>
             <div class="d-lg-none d-xl-block">
                 <button class="navbar-toggler border-0 text-danger">
                     <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
-                        data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i
-                            class="bi bi-list"></i></button>
+                        data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="bi bi-list"></i>
+                    </button>
                     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
                         aria-labelledby="offcanvasRightLabel">
                         <div class="offcanvas-header">
@@ -37,13 +38,13 @@
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item dropdown">
-                        <a class="nav-link" id="arrow" href="#" role="button" data-bs-toggle="dropdown"
+                        <a class="nav-link txt" id="arrow" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
-                            <span id="Languages">Languages</span><i class="bi bi-arrow-down"></i>
+                            <span id="languages">Languages</span><i class="bi bi-arrow-down"></i>
                         </a>
-                        <a class="nav-link d-none" id="arrow2" href="#" role="button" data-bs-toggle="dropdown"
+                        <a class="nav-link txt d-none" id="arrow2" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
-                            <span id="Languages2">Languages</span><i class="bi bi-arrow-up"></i>
+                            <span id="languages2">Languages</span><i class="bi bi-arrow-up"></i>
                         </a>
                         <ul id="drop" class="dropdown-menu menu">
                             <li id="english" class="text-center item">English</li>
@@ -51,23 +52,32 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                            Button with data-bs-target
-                        </button>
+
                     </li>
                 </ul>
                 <div class="d-flex">
-                    <i id="sun" class="bi fs-2 bi-sun"></i>
-                    <i id="moon" class="bi d-none fs-2 bi-moon-stars"></i>
+                    <i id="sun" class="bi fs-2 txt bi-sun"></i>
+                    <i id="moon" class="bi d-none txt2 fs-2 bi-moon-stars"></i>
                 </div>
             </div>
         </div>
     </nav>
-    <div class="collapse col-4" id="collapseExample">
-        <div class="card card-body">
-            Some placeholder content for the collapse component. This panel is hidden by default but revealed when the
-            user activates the relevant trigger.
+    <div class="container-fluid">
+        <div class="row">
+            <div class="d-flex justify-content-between">
+                <div class="collapse col-lg-4 col-8" id="collapseExample">
+                    <div class="card card-body">
+                        Some placeholder content for the collapse component. This panel is hidden by default but
+                        revealed when the
+                        user activates the relevant trigger.
+                    </div>
+                </div>
+                <div class="col-4 ms-1 col-lg">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ullam quas fugiat distinctio
+                    necessitatibus impedit aperiam nostrum maiores earum magni a animi laboriosam temporibus
+                    voluptatibus itaque soluta, voluptates harum dolorum.
+                </div>
+            </div>
         </div>
     </div>
 </body>
