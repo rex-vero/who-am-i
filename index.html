@@ -12,25 +12,46 @@
     <title id="title">Who Am I?</title>
 </head>
 
-<body class="body" id="body">
+<body class="body font" id="body">
     <nav id="navbar" class="navbar navbar-expand-lg bg sticky-top">
         <div class="container-fluid">
             <a id="name" class="navbar-brand txt" data-bs-toggle="collapse" data-bs-target="#collapseExample"
-                aria-expanded="false" aria-controls="collapseExample">Mohammad Ahmadi</a>
+                aria-expanded="false" aria-controls="collapseExample">Mohammad Amin Ahmadi</a>
             <div class="d-lg-none d-xl-block">
                 <button class="navbar-toggler border-0 text-danger">
-                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                    <button id="btn" class="menu-btn fs-3 txt" data-bs-toggle="offcanvas"
                         data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="bi bi-list"></i>
                     </button>
                     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
                         aria-labelledby="offcanvasRightLabel">
-                        <div class="offcanvas-header">
-                            <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
-                                aria-label="Close"></button>
+                        <div class="offcanvas-header head">
+                            <h5 class="offcanvas-title text">Menu</h5>
+                            <i class="bi text-danger fs-3 bi-x-lg" data-bs-dismiss="offcanvas" aria-label="Close"></i>
                         </div>
                         <div class="offcanvas-body">
-                            ...
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link txt" id="arrow" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        <span id="languages">Languages</span><i class="bi bi-arrow-down"></i>
+                                    </a>
+                                    <a class="nav-link txt d-none" id="arrow2" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        <span id="languages2">Languages</span><i class="bi bi-arrow-up"></i>
+                                    </a>
+                                    <ul id="drop" class="dropdown-menu menu">
+                                        <li id="english" class="text-center item">English</li>
+                                        <li id="persian" class="text-center item">Persian</li>
+                                    </ul>
+                                </li>
+                                <li class="nav-link">
+                                    <a id="contact" class="txt text-decoration-none" href="#">Contact With Me</a>
+                                </li>
+                            </ul>
+                            <div class="d-flex">
+                                <i id="sun" class="bi fs-2 txt bi-sun"></i>
+                                <i id="moon" class="bi d-none txt2 fs-2 bi-moon-stars"></i>
+                            </div>
                         </div>
                     </div>
                 </button>
@@ -38,46 +59,45 @@
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item dropdown">
-                        <a class="nav-link txt" id="arrow" href="#" role="button" data-bs-toggle="dropdown"
+                        <a class="nav-link txt" id="arrow3" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
-                            <span id="languages">Languages</span><i class="bi bi-arrow-down"></i>
+                            <span id="languages3">Languages</span><i class="bi bi-arrow-down"></i>
                         </a>
-                        <a class="nav-link txt d-none" id="arrow2" href="#" role="button" data-bs-toggle="dropdown"
+                        <a class="nav-link txt d-none" id="arrow4" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
-                            <span id="languages2">Languages</span><i class="bi bi-arrow-up"></i>
+                            <span id="languages4">Languages</span><i class="bi bi-arrow-up"></i>
                         </a>
                         <ul id="drop" class="dropdown-menu menu">
-                            <li id="english" class="text-center item">English</li>
-                            <li id="persian" class="text-center item">Persian</li>
+                            <li id="english2" class="text-center item">English</li>
+                            <li id="persian2" class="text-center item">Persian</li>
                         </ul>
                     </li>
-                    <li class="nav-item">
-
+                    <li class="nav-link">
+                        <a id="contact2" class="txt text-decoration-none" href="#">Contact With Me</a>
                     </li>
                 </ul>
                 <div class="d-flex">
-                    <i id="sun" class="bi fs-2 txt bi-sun"></i>
-                    <i id="moon" class="bi d-none txt2 fs-2 bi-moon-stars"></i>
+                    <i id="sun2" class="bi fs-2 txt bi-sun"></i>
+                    <i id="moon2" class="bi d-none txt2 fs-2 bi-moon-stars"></i>
                 </div>
             </div>
         </div>
     </nav>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="d-flex justify-content-between">
-                <div class="collapse col-lg-4 col-8" id="collapseExample">
-                    <div class="card card-body">
-                        Some placeholder content for the collapse component. This panel is hidden by default but
-                        revealed when the
-                        user activates the relevant trigger.
-                    </div>
-                </div>
-                <div class="col-4 ms-1 col-lg">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ullam quas fugiat distinctio
-                    necessitatibus impedit aperiam nostrum maiores earum magni a animi laboriosam temporibus
-                    voluptatibus itaque soluta, voluptates harum dolorum.
+    <div class="d-flex justify-content-between">
+        <div class="collapse col-lg-4 col-8" id="collapseExample">
+            <div class="card card-body">
+                <div class="d-flex flex-column">
+                    <img src="./assets/images/mohammad-amin.jpg" class="img-fluid rounded-circle">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptatem sunt fugit.
+                        Molestias natus illo accusamus harum error dolores? Voluptatem est harum ducimus
+                        quibusdam eaque nam neque dolor explicabo quisquam!</p>
                 </div>
             </div>
+        </div>
+        <div class="col-4 ms-1 col-lg">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ullam quas fugiat distinctio
+            necessitatibus impedit aperiam nostrum maiores earum magni a animi laboriosam temporibus
+            voluptatibus itaque soluta, voluptates harum dolorum.
         </div>
     </div>
 </body>
