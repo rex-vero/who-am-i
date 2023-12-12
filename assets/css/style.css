@@ -8,4 +8,68 @@ html {
   scroll-behavior: smooth;
 }
 
+.body {
+  background: rgb(113, 113, 113);
+  background: linear-gradient(180deg, rgb(113, 113, 113) 0%, rgb(173, 173, 173) 50%, rgb(255, 255, 255) 100%);
+  background-repeat: no-repeat;
+}
+
+.body2 {
+  background: rgb(232, 232, 232);
+  background: linear-gradient(180deg, rgb(232, 232, 232) 0%, rgb(82, 82, 82) 50%, rgb(0, 0, 0) 100%);
+  background-repeat: no-repeat;
+}
+
+.bg {
+  background-color: rgba(255, 255, 255, 0.65);
+}
+
+.bg2 {
+  background-color: rgba(0, 0, 0, 0.65);
+}
+
+.item {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  transition: 0.4s;
+  cursor: pointer;
+}
+.item:hover {
+  transition: 0.4s;
+  color: #ffffff;
+  background-color: #5a5a5a;
+}
+
+.txt {
+  color: rgb(0, 0, 0);
+  transition: 0.4s;
+  cursor: pointer;
+}
+.txt:hover {
+  transition: 0.4s;
+  color: #7a7a7a;
+}
+
+.item2 {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  transition: 0.4s;
+  cursor: pointer;
+}
+.item2:hover {
+  transition: 0.4s;
+  color: #ffffff;
+  background-color: #5a5a5a;
+}
+
+.txt2 {
+  color: rgb(255, 255, 255);
+  transition: 0.4s;
+  cursor: pointer;
+}
+.txt2:hover {
+  transition: 0.4s;
+  color: #7a7a7a;
+}
+
 /*# sourceMappingURL=style.css.map */
