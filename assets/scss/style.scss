@@ -8,6 +8,24 @@ html {
     scroll-behavior: smooth;
 }
 
+@font-face {
+    font-family: english;
+    src: url('../fonts/calibri.ttf');
+}
+
+@font-face {
+    font-family: farsi;
+    src: url('../fonts/W_teknik.ttf');
+}
+
+.font {
+    font-family: english;
+}
+
+.font2 {
+    font-family: farsi;
+}
+
 .body {
     background: rgb(113, 113, 113);
     background: linear-gradient(180deg, rgba(113, 113, 113, 1) 0%, rgba(173, 173, 173, 1) 50%, rgba(255, 255, 255, 1) 100%);
@@ -28,6 +46,14 @@ html {
     background-color: rgba(0, 0, 0, 0.65);
 }
 
+.text {
+    color: rgb(0, 0, 0);
+}
+
+.text2 {
+    color: rgb(255, 255, 255);
+}
+
 .item {
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
@@ -43,25 +69,25 @@ html {
 
 .txt {
     color: rgb(0, 0, 0);
-    transition: .4s;
+    transition: .2s;
     cursor: pointer;
 
     &:hover {
-        transition: .4s;
-        color: #7a7a7a;
+        transition: .2s;
+        color: #3d3d3d;
     }
 }
 
 .item2 {
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
-    transition: .4s;
+    transition: .2s;
     cursor: pointer;
 
     &:hover {
-        transition: .4s;
+        transition: .2s;
         color: #ffffff;
-        background-color: #5a5a5a;
+        background-color: #7a7a7a;
     }
 }
 
@@ -71,7 +97,26 @@ html {
     cursor: pointer;
 
     &:hover {
-        transition: .4s;
+        transition: .2s;
         color: #7a7a7a;
     }
+}
+
+.menu-btn {
+    border: 0px;
+    background-color: inherit;
+}
+
+.bi-x-lg {
+    cursor: pointer;
+    transition: .1s;
+
+    &:hover {
+        transition: .1s;
+        transform: scale(1.2);
+    }
+}
+
+.head {
+    background-color: #979797;
 }
