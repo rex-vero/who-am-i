@@ -27,14 +27,14 @@ html {
 }
 
 .body {
-    background: rgb(113, 113, 113);
-    background: linear-gradient(180deg, rgba(113, 113, 113, 1) 0%, rgba(173, 173, 173, 1) 50%, rgba(255, 255, 255, 1) 100%);
+    background: rgb(197, 197, 197);
+    background: linear-gradient(180deg, rgba(197, 197, 197, 1) 0%, rgba(173, 173, 173, 1) 50%, rgba(255, 255, 255, 1) 100%);
     background-repeat: no-repeat;
 }
 
 .body2 {
-    background: rgb(232, 232, 232);
-    background: linear-gradient(180deg, rgba(232, 232, 232, 1) 0%, rgba(82, 82, 82, 1) 50%, rgba(0, 0, 0, 1) 100%);
+    background: rgb(160, 160, 160);
+    background: linear-gradient(180deg, rgba(160, 160, 160, 1) 0%, rgba(82, 82, 82, 1) 50%, rgba(0, 0, 0, 1) 100%);
     background-repeat: no-repeat;
 }
 
@@ -118,5 +118,9 @@ html {
 }
 
 .head {
-    background-color: #979797;
+    background-color: #949494;
+}
+
+.head2 {
+    background-color: #464646;
 }

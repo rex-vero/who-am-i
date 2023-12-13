@@ -21,6 +21,9 @@ const languages4 = document.getElementById('languages4');
 const contact = document.getElementById('contact');
 const contact2 = document.getElementById('contact2');
 const btn = document.getElementById('btn');
+const menu = document.getElementById('menu');
+const offcanvasHeader = document.getElementById('offcanvas-header');
+const offcanvasBody = document.getElementById('offcanvas-body');
 arrow.addEventListener('click', () => {
     arrow.classList.add('d-none');
     arrow2.classList.remove('d-none');
@@ -49,6 +52,9 @@ english.addEventListener('click', () => {
     languages.innerText = "Languages";
     languages2.innerText = "Languages";
     contact.innerText = "Contact With Me";
+    menu.innerText = "Menu";
+    offcanvasHeader.setAttribute('dir', 'ltr');
+    offcanvasBody.setAttribute('dir', 'ltr');
 });
 english2.addEventListener('click', () => {
     arrow3.classList.remove('d-none');
@@ -75,6 +81,9 @@ persian.addEventListener('click', () => {
     languages.innerText = "زبان ها";
     languages2.innerText = "زبان ها";
     contact.innerText = "ارتباط با من";
+    menu.innerText = "منو";
+    offcanvasHeader.setAttribute('dir', 'rtl');
+    offcanvasBody.setAttribute('dir', 'rtl');
 });
 persian2.addEventListener('click', () => {
     arrow3.classList.remove('d-none');
@@ -108,6 +117,11 @@ sun.addEventListener('click', () => {
     contact.classList.remove('txt');
     btn.classList.add('txt2');
     btn.classList.remove('txt');
+    menu.classList.add('text2');
+    menu.classList.remove('text');
+    offcanvasHeader.classList.add('head2');
+    offcanvasHeader.classList.remove('head');
+    offcanvasBody.classList.add('head');
 });
 sun2.addEventListener('click', () => {
     sun2.classList.add('d-none');
@@ -148,6 +162,11 @@ moon.addEventListener('click', () => {
     contact.classList.remove('txt2');
     btn.classList.add('txt');
     btn.classList.remove('txt2');
+    menu.classList.add('text');
+    menu.classList.remove('text2');
+    offcanvasHeader.classList.add('head');
+    offcanvasHeader.classList.remove('head2');
+    offcanvasBody.classList.remove('head');
 });
 moon2.addEventListener('click', () => {
     moon2.classList.add('d-none');

@@ -25,14 +25,14 @@ html {
 }
 
 .body {
-  background: rgb(113, 113, 113);
-  background: linear-gradient(180deg, rgb(113, 113, 113) 0%, rgb(173, 173, 173) 50%, rgb(255, 255, 255) 100%);
+  background: rgb(197, 197, 197);
+  background: linear-gradient(180deg, rgb(197, 197, 197) 0%, rgb(173, 173, 173) 50%, rgb(255, 255, 255) 100%);
   background-repeat: no-repeat;
 }
 
 .body2 {
-  background: rgb(232, 232, 232);
-  background: linear-gradient(180deg, rgb(232, 232, 232) 0%, rgb(82, 82, 82) 50%, rgb(0, 0, 0) 100%);
+  background: rgb(160, 160, 160);
+  background: linear-gradient(180deg, rgb(160, 160, 160) 0%, rgb(82, 82, 82) 50%, rgb(0, 0, 0) 100%);
   background-repeat: no-repeat;
 }
 
@@ -111,7 +111,11 @@ html {
 }
 
 .head {
-  background-color: #979797;
+  background-color: #949494;
+}
+
+.head2 {
+  background-color: #464646;
 }
 
 /*# sourceMappingURL=style.css.map */
