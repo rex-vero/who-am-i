@@ -118,4 +118,25 @@ html {
   background-color: #464646;
 }
 
+.height {
+  height: 80vh;
+}
+.height .proj {
+  flex: 1;
+  transition: 0.5s;
+}
+.height .proj:hover {
+  flex: 1 1 50%;
+}
+.height .proj .img {
+  width: 200%;
+  height: calc(100% - 10vh);
+  object-fit: cover;
+  transition: 0.5s;
+}
+.height .proj .name {
+  height: 5vh;
+  line-height: 2.6;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -124,3 +124,28 @@ html {
 .head2 {
     background-color: #464646;
 }
+
+.height {
+    height: 80vh;
+
+    .proj {
+        flex: 1;
+        transition: .5s;
+
+        &:hover {
+            flex: 1 1 50%;
+        }
+
+        .img {
+            width: 200%;
+            height: calc(100% - 10vh);
+            object-fit: cover;
+            transition: .5s;
+        }
+
+        .name {
+            height: 5vh;
+            line-height: 2.6;
+        }
+    }
+}
