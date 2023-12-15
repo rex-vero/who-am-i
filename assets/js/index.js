@@ -24,6 +24,7 @@ const btn = document.getElementById('btn');
 const menu = document.getElementById('menu');
 const offcanvasHeader = document.getElementById('offcanvas-header');
 const offcanvasBody = document.getElementById('offcanvas-body');
+const repositories = document.getElementById('rep');
 arrow.addEventListener('click', () => {
     arrow.classList.add('d-none');
     arrow2.classList.remove('d-none');
@@ -187,4 +188,14 @@ moon2.addEventListener('click', () => {
     contact2.classList.remove('txt2');
     btn.classList.add('txt');
     btn.classList.remove('txt2');
+});
+myName.addEventListener('click', () => {
+    for (let i = 1; i <= 20; i++) {
+        time = setTimeout(() => {
+            repositories.innerText++;
+        }, i * 100);
+        if (+repositories.innerText !== 0) {
+            clearTimeout(time);
+        }
+    }
 });

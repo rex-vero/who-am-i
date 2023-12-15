@@ -139,4 +139,37 @@ html {
   line-height: 2.6;
 }
 
+.imgs {
+  height: 2.7rem;
+  object-fit: contain;
+}
+
+@media only screen and (max-width: 501px) {
+  .imgs {
+    height: 1.7rem;
+    object-fit: contain;
+  }
+}
+@media only screen and (min-width: 2501px) {
+  .imgs {
+    height: 6.7rem;
+    object-fit: contain;
+  }
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(36, 35, 35);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(126, 121, 121);
+  border-radius: 1px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(141, 131, 131);
+}
+
 /*# sourceMappingURL=style.css.map */
