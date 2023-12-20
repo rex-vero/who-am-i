@@ -25,14 +25,14 @@ html {
 }
 
 .body {
-  background: rgb(197, 197, 197);
-  background: linear-gradient(180deg, rgb(197, 197, 197) 0%, rgb(173, 173, 173) 50%, rgb(255, 255, 255) 100%);
+  background: rgb(168, 167, 167);
+  background: linear-gradient(180deg, rgb(168, 167, 167) 0%, rgb(173, 173, 173) 50%, rgb(245, 243, 243) 100%);
   background-repeat: no-repeat;
 }
 
 .body2 {
-  background: rgb(160, 160, 160);
-  background: linear-gradient(180deg, rgb(160, 160, 160) 0%, rgb(82, 82, 82) 50%, rgb(0, 0, 0) 100%);
+  background: rgb(121, 121, 121);
+  background: linear-gradient(180deg, rgb(121, 121, 121) 0%, rgb(82, 82, 82) 50%, rgb(0, 0, 0) 100%);
   background-repeat: no-repeat;
 }
 
@@ -46,10 +46,12 @@ html {
 
 .text {
   color: rgb(0, 0, 0);
+  transition: 0.5s;
 }
 
 .text2 {
   color: rgb(255, 255, 255);
+  transition: 0.5s;
 }
 
 .item {

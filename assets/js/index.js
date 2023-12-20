@@ -25,6 +25,11 @@ const menu = document.getElementById('menu');
 const offcanvasHeader = document.getElementById('offcanvas-header');
 const offcanvasBody = document.getElementById('offcanvas-body');
 const repositories = document.getElementById('rep');
+const berserk = document.getElementById('berserk');
+const nasa = document.getElementById('nasa');
+const algorithms = document.getElementById('algorithms');
+const digikala = document.getElementById('digikala');
+const calculator = document.getElementById('calculator');
 arrow.addEventListener('click', () => {
     arrow.classList.add('d-none');
     arrow2.classList.remove('d-none');
@@ -56,6 +61,11 @@ english.addEventListener('click', () => {
     menu.innerText = "Menu";
     offcanvasHeader.setAttribute('dir', 'ltr');
     offcanvasBody.setAttribute('dir', 'ltr');
+    berserk.innerText = "Berserk";
+    nasa.innerText = "Nasa";
+    algorithms.innerText = "Java Script Algorithms";
+    digikala.innerText = "Digikala";
+    calculator.innerText = "Calculator";
 });
 english2.addEventListener('click', () => {
     arrow3.classList.remove('d-none');
@@ -69,6 +79,11 @@ english2.addEventListener('click', () => {
     languages3.innerText = "Languages";
     languages4.innerText = "Languages";
     contact2.innerText = "Contact With Me";
+    berserk.innerText = "Berserk";
+    nasa.innerText = "Nasa";
+    algorithms.innerText = "Java Script Algorithms";
+    digikala.innerText = "Digikala";
+    calculator.innerText = "Calculator";
 });
 persian.addEventListener('click', () => {
     arrow.classList.remove('d-none');
@@ -85,6 +100,11 @@ persian.addEventListener('click', () => {
     menu.innerText = "منو";
     offcanvasHeader.setAttribute('dir', 'rtl');
     offcanvasBody.setAttribute('dir', 'rtl');
+    berserk.innerText = "برزرک";
+    nasa.innerText = "ناسا";
+    algorithms.innerText = "الگوریتم های جاوا اسکریپت";
+    digikala.innerText = "دیجی کالا";
+    calculator.innerText = "ماشین حساب";
 });
 persian2.addEventListener('click', () => {
     arrow3.classList.remove('d-none');
@@ -98,6 +118,11 @@ persian2.addEventListener('click', () => {
     languages3.innerText = "زبان ها";
     languages4.innerText = "زبان ها";
     contact2.innerText = "ارتباط با من";
+    berserk.innerText = "برزرک";
+    nasa.innerText = "ناسا";
+    algorithms.innerText = "الگوریتم های جاوا اسکریپت";
+    digikala.innerText = "دیجی کالا";
+    calculator.innerText = "ماشین حساب";
 });
 sun.addEventListener('click', () => {
     sun.classList.add('d-none');
@@ -123,6 +148,16 @@ sun.addEventListener('click', () => {
     offcanvasHeader.classList.add('head2');
     offcanvasHeader.classList.remove('head');
     offcanvasBody.classList.add('head');
+    berserk.classList.add('text2');
+    berserk.classList.remove('text');
+    nasa.classList.add('text2');
+    nasa.classList.remove('text');
+    algorithms.classList.add('text2');
+    algorithms.classList.remove('text');
+    digikala.classList.add('text2');
+    digikala.classList.remove('text');
+    calculator.classList.add('text2');
+    calculator.classList.remove('text');
 });
 sun2.addEventListener('click', () => {
     sun2.classList.add('d-none');
@@ -143,6 +178,16 @@ sun2.addEventListener('click', () => {
     contact2.classList.remove('txt');
     btn.classList.add('txt2');
     btn.classList.remove('txt');
+    berserk.classList.add('text2');
+    berserk.classList.remove('text');
+    nasa.classList.add('text2');
+    nasa.classList.remove('text');
+    algorithms.classList.add('text2');
+    algorithms.classList.remove('text');
+    digikala.classList.add('text2');
+    digikala.classList.remove('text');
+    calculator.classList.add('text2');
+    calculator.classList.remove('text');
 });
 moon.addEventListener('click', () => {
     moon.classList.add('d-none');
@@ -168,6 +213,16 @@ moon.addEventListener('click', () => {
     offcanvasHeader.classList.add('head');
     offcanvasHeader.classList.remove('head2');
     offcanvasBody.classList.remove('head');
+    berserk.classList.add('text');
+    berserk.classList.remove('text2');
+    nasa.classList.add('text');
+    nasa.classList.remove('text2');
+    algorithms.classList.add('text');
+    algorithms.classList.remove('text2');
+    digikala.classList.add('text');
+    digikala.classList.remove('text2');
+    calculator.classList.add('text');
+    calculator.classList.remove('text2');
 });
 moon2.addEventListener('click', () => {
     moon2.classList.add('d-none');
@@ -188,6 +243,16 @@ moon2.addEventListener('click', () => {
     contact2.classList.remove('txt2');
     btn.classList.add('txt');
     btn.classList.remove('txt2');
+    berserk.classList.add('text');
+    berserk.classList.remove('text2');
+    nasa.classList.add('text');
+    nasa.classList.remove('text2');
+    algorithms.classList.add('text');
+    algorithms.classList.remove('text2');
+    digikala.classList.add('text');
+    digikala.classList.remove('text2');
+    calculator.classList.add('text');
+    calculator.classList.remove('text2');
 });
 myName.addEventListener('click', () => {
     for (let i = 1; i <= 20; i++) {
